@@ -37,7 +37,7 @@ int main(void)
     {
         cout<<"For node "<<i<<':';
         j=0;
-        for(vector<int>::iterator inside = lv[i].begin(); inside!=lv[i].end(); inside++, j++)
+        for(vector<int>::iterator inside = lv.at(i).begin(); inside!=lv.at(i).end(); inside++, j++)
         {
             cout<<' '<<lv.at(i).at(j);
         }
