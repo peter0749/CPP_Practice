@@ -11,7 +11,7 @@ using std::max_element;
 
 class Solution {
     public:
-        /*Solution::solution: find the missing iteger in an array.*/
+        /*Solution::solution: find the missing integer in an array.*/
         /* Using unordered_set. Time complexity O(n) */
         int solution( int *A, size_t n) {
             unordered_set<int> s;
